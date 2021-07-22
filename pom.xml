@@ -72,4 +72,13 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Temporary Staging Repository</name>
+      <url>file://${project.build.directory}/</url>
+    </repository>
+  </distributionManagement>
+
 </project>
