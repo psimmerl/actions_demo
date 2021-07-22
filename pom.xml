@@ -75,9 +75,9 @@
 
   <distributionManagement>
     <repository>
-      <id>internal.repo</id>
-      <name>Temporary Staging Repository</name>
-      <url>file://${project.build.directory}/</url>
+      <id>github</id>
+      <name>Gitub Packages</name>
+      <url>https://maven.pkg.github.com/psimmerl/actions_demo/</url>
     </repository>
   </distributionManagement>
 
